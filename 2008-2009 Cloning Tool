@@ -417,16 +417,16 @@ class Main:
 		print(" [6] 2004-2005 Cloning")
 		print(" [7] 2006-2007 Cloning")
 		print(" [E] Exit Programming\n")
-		TUTUL =input(" Choose : ")
-		if TUTUL in ["1", "01"]:
+	 RU Brook =input(" Choose : ")
+		if RU Brook in ["1", "01"]:
 			File()
-		if TUTUL in ["2", "02"]:
+		if RU Brook in ["2", "02"]:
 			Public()
-		if TUTUL in ["3", "03"]:
+		if RU Brook in ["3", "03"]:
 			os.system("python Dump.py")
-		if TUTUL in ["4", "04"]:
+		if RU Brook in ["4", "04"]:
 			self.old()
-		if TUTUL in ["5", "05"]:
+		if RU Brook in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
